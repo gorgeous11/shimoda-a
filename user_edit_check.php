@@ -11,7 +11,7 @@
 			session_start();
 
 			$pro_name=$_POST['name'];
-			$pro_name2=$_POST['name2''];
+			$pro_name2=$_POST['name2'];
 
 			if($pro_name=='')
 			{

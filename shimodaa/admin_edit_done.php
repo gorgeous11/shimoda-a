@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>教科書修正</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php

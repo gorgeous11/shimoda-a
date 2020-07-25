@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>教科書表示</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php
@@ -58,8 +59,7 @@
 			}
 		?>
 
-		教科書表示<br />
-		<br />
+		<h1>教科書表示</h1>
 		教科書コード<br />
 		<?php print  h($pro_code); ?>
 		<br />

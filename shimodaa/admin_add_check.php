@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>入力内容チェック</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php

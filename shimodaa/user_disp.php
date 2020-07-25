@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>登録情報表示</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php
@@ -39,7 +40,7 @@
 			}
 		?>
 
-		登録情報表示<br />
+		<h1>登録情報表示</h1><br />
 		<br />
 		登録者コード<br />
 		<?php print h($rec['code']); ?><br />

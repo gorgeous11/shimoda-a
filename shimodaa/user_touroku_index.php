@@ -5,6 +5,7 @@
 		<title>登録情報</title>
 	</head>
 	<body>
+		<h1>登録</h1><br>
 		<?php
 			require_once '_database_conf.php';
 			require_once '_h.php';

@@ -3,8 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>予約削除</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
+		<h1>予約削除</h1>
 		<?php
 			require_once '_database_conf.php';
 			require_once '_h.php';

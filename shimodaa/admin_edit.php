@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>商品修正</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php
@@ -58,8 +59,7 @@
 			}
 		?>
 
-		商品修正<br />
-		<br />
+		<h1>商品修正</h1>
 		商品コード<br />
 		<?php print h($pro_code); ?>
 		<br />

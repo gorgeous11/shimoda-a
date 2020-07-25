@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>教科書削除</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php
@@ -58,8 +59,7 @@
 			}
 		?>
 
-		教科書削除<br />
-		<br />
+		<h1>教科書削除</h1>
 		教科書コード<br />
 		<?php print h($rec['code_text']); ?><br />
 		教科書名<br />

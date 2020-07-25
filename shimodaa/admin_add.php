@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>教科書情報入力</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
-		教科書情報入力<br />
-		<br />
+		<h1>教科書情報入力</h1>
 
 		<form method="post" action="admin_add_check.php" enctype="multipart/form-data">
 			名前を入力してください。<br />

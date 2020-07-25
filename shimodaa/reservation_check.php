@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>教科書予約</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php
@@ -53,8 +54,7 @@
 			}
 		?>
 
-		教科書予約<br />
-		<br />
+		<h1>教科書予約</h1>
 		注文番号：
 		<?php print '　　'; print $pro_code; ?><br />
 		科目名：

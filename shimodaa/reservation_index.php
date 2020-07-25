@@ -3,8 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>予約教科書一覧</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
+		<h1>あなたが予約した教科書一覧</h1>
 		<?php
 			require_once '_database_conf.php';
 			require_once '_h.php';
@@ -30,7 +32,7 @@
 				$prepare->execute();
 
 
-				print 'あなたが予約した教科書一覧<br /><br />';
+				//print 'あなたが予約した教科書一覧<br /><br />';
 
 				while(true)
 				{

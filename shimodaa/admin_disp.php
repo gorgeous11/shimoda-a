@@ -3,6 +3,7 @@
 	<h教科書d>
 		<meta charset="UTF-8">
 		<title>教科書表示</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php
@@ -42,8 +43,7 @@
 			}
 		?>
 
-		教科書表示<br />
-		<br />
+		<h1>教科書表示</h1>
 		教科書科書コード<br />
 		<?php print h($rec['code_text']); ?><br />
 		教科書名<br />

@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>予約削除</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
 		<?php
@@ -49,8 +50,7 @@
 	 			exit();
 			}
 		?>
-		予約削除<br />
-		<br />
+		<h1>予約削除</h1>
         予約番号：
         <?php print '　　';print $pro_code_reservation; ?><br>
         注文番号：

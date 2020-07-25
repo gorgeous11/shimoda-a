@@ -3,8 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>登録教科書一覧</title>
+		<link rel="stylesheet" href="shimodaa.css">
 	</head>
 	<body>
+		<h1>教科書一覧</h1>
 		<?php
 			require_once '_database_conf.php';
 			require_once '_h.php';
@@ -20,7 +22,7 @@
 
 				$db=null;
 
-				print '教科書一覧<br /><br />';
+				//print '教科書一覧<br /><br />';
 
 				while(true)
 				{

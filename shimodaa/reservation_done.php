@@ -35,11 +35,15 @@
 				$db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 				$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-				$sql='INSERT INTO dat_reserv(code_user, code_order) VALUES (:code_user, :code_order)';
+				$sql = 'INSERT INTO dat_reserv(code_user, code_order) VALUES (:code_user, :code_order)';
+				//$sql2 = 'UPDATE mst_dat_text SET quantity = quantity - 1 WHERE ';
 				$prepare=$db->prepare($sql);
 				$prepare->bindValue(':code_user', $pro_name, PDO::PARAM_STR);
 				$prepare->bindValue(':code_order', $pro_code, PDO::PARAM_STR);
 				$prepare->execute();
+
+				//$prepare=$db->prepare($sql2);
+				//$prepare->execute();
 
 				$db=null;
 

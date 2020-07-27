@@ -45,7 +45,7 @@
 				$pro_name_subject = $rec['name_subject'];
 				$pro_name_teacher = $rec['name_teacher'];
 				$pro_code_text = $rec['code_text'];
-				$pro_name_text = $rec['name_text'];	
+				$pro_name_text = $rec['name_text']; 
 			}
 			catch(Exception $e)
 			{

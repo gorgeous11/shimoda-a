@@ -95,7 +95,7 @@
 				}
 				else
 				{
-					move_uploaded_file($pro_gazou['tmp_name'],'../gazou'.$pro_gazou['name']);
+					move_uploaded_file($pro_gazou['tmp_name'],'gazou/'.$pro_gazou['name']);
 					print '<img src="../gazou'.$pro_gazou['name'].'">';
 					print '<br />';
 				}
